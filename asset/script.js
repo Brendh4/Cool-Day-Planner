@@ -1,8 +1,16 @@
-console.log("this is")
-// todays date, put att top of page
+console.log("testing JS link")
 
-var startHour = "9 am"
-var endHour = "5 pm"
+// todays date, put at top of page
+var displayDayEl = $("#currentDay");
+function currentDay() {
+    var day = dayjs().format("dddd, MMMM D, YYYY");
+    $(displayDayEl).text(day);
+}
+currentDay()
+
+
+// var startHour = "9 am"
+// var endHour = "5 pm"
 
 
 // make a block for every hour from 9 to 5 inclusive
