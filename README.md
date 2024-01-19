@@ -10,7 +10,7 @@ Link to deployed application: https://brendh4.github.io/Cool-Day-Planner/
 
 To use this planner,  simply open the index page in your preferred browser and type in tasks or commitments in the input fields shown for the relevant time.
 
-![Deployed webpage screenshot](/assets/images/screenshot.PNG)
+![Deployed webpage screenshot](/asset/images/screenshot.PNG)
 
 ## Credits
 
