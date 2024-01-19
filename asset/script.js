@@ -1,4 +1,4 @@
-console.log("testing JS link")
+console.log("testing JS link");
 
 // todays date, put at top of page
 var displayDayEl = $("#currentDay");
@@ -18,8 +18,10 @@ function generateTimeblocks () {
             timeblock.attr("id", "hour-" + i);
             timeblock.html('<div col-8 col-md-10>' + i + '</div>');
 
+            //input field
             timeblock.append(createInputField(i));
-            
+
+            //save button (not working yet, just a button)
             var saveButton = $("<button>");
             saveButton.addClass("saveBtn");
             saveButton.html('<i class="fas fa-save"></i>');
@@ -36,7 +38,6 @@ function createInputField(i) {
     inputField.addClass("description");
     return inputField;
 }
-
     
-    generateTimeblocks();
+generateTimeblocks();
 
